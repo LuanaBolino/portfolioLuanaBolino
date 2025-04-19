@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--animações-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/> 
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --cor1: #2F0B49;
+        --cor2: #5A0F98;
+        --cor3: #5A0F98;
+        --cor4: white;
+      }
+  
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: var(--cor1);
+        color: var(--cor4);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+        padding: 2rem;
+      }
+  
+      .message-box {
+        background-color: var(--cor2);
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        max-width: 500px;
+        width: 100%;
+      }
+  
+      .message-box h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+  
+      .message-box p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+      }
+  
+      .btn-voltar {
+        background-color: var(--cor1);
+        color: var(--cor4);
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
+      }
+  
+      .btn-voltar:hover {
+        background-color: #1e0632;
+      }
+  
+      @media (max-width: 500px) {
+        .message-box {
+          padding: 1.5rem;
+        }
+  
+        .message-box h1 {
+          font-size: 1.5rem;
+        }
+  
+        .btn-voltar {
+          font-size: 0.95rem;
+          padding: 0.7rem 1.2rem;
+        }
+      }
+    </style>
+    <title>Luana Bolino</title>
+</head>
+<body>
+  <div class="message-box">
+    <h1>Obrigada pela sua mensagem!</h1>
+    <p>Em breve entrarei em contato com você. 💜</p>
+    <a href="../index.html" class="btn-voltar">Voltar para o site</a>
+  </div>
+</body>
+</html>
