@@ -281,7 +281,7 @@ header{
 .projeto-card{
   background-color: var(--cor1);
   width: clamp(16.25rem, 14.9519rem + 5.7692vw, 21.875rem);
-  height: 450px;
+  height: 550px;
   color: var(--cor4);
   padding: 30px 25px;
   border-radius: 20px;
