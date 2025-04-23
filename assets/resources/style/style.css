@@ -164,6 +164,12 @@ section{
   font-size: clamp(0.9375rem, 0.9087rem + 0.1282vw, 1.0625rem);
 }
 
+.a-nav-mobile{
+  color: var(--cor4);
+  text-decoration: none;
+  font-size: clamp(0.9375rem, 0.9087rem + 0.1282vw, 1.0625rem);
+}
+
 
 .mobile-menu-icon{
   display: none;
@@ -182,7 +188,8 @@ section{
 }
 
 .btn-menu{
-  width: 40px;
+  width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 1200px){
@@ -288,13 +295,17 @@ header{
   display: flex;
   flex-direction: column;
   gap: 30px;
-  justify-content: space-around;
+  justify-content: start;
   transition: transform 0.3s ease;
 }
 
+.text-card{
+  height: 60%;
+}
 
 .text-card > p{
   font-weight: 200;
+
 }
 
 .link-projeto{
@@ -401,6 +412,10 @@ footer{
 }
 
 @media screen and (max-width: 1150px) {
+  h1{
+    margin-bottom: -10px;
+  }
+  
   .container{
     width: 90%;
     align-items: center;
