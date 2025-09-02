@@ -241,9 +241,7 @@ header{
 }
 
 /*sobre mim-------------------------------------------------*/
-.sobre{
-  margin: 200px 0;
-}
+
 
 .sobre-container > img{
   height: clamp(12.5rem, 11.7788rem + 3.2051vw, 15.625rem);
