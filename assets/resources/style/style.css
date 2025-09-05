@@ -205,8 +205,8 @@ section{
   z-index: 4;
 }
 
-.svg-logo{
-  height: 25px;
+#logo{
+  width: 60px;
 }
 
 .a-nav{
@@ -261,7 +261,7 @@ section{
     font-weight: bold;
     font-size: 20px;
     list-style-type: none;
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     width: 100%;
     color: var(--cor-4);
   }
